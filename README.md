@@ -34,10 +34,22 @@ But today, issuers manage all of this via CLI or raw contract calls. **There's n
 
 ---
 
+## Getting Started
+
+```bash
+git clone https://github.com/b20auth/B20auth.git
+cd B20auth
+npm install
+cp .env.example .env.local   # optional: WalletConnect project ID
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000). Connect your wallet on **Base Sepolia** testnet.
+
 ## Roadmap
 
 - [x] Project setup & branding
-- [ ] Wallet connect (Base Sepolia)
+- [x] Landing page & wallet connect (Base Sepolia)
 - [ ] B20 token role viewer
 - [ ] Grant / revoke roles from UI
 - [ ] Transfer policy manager (allowlist/blocklist)
